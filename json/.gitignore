@@ -1,0 +1,6 @@
+*.pyc
+build/
+dist/
+framefilejson.egg-info/
+results/
+tracking.py

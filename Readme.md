@@ -22,7 +22,7 @@ sudo ./scripts/opencv_3.1.0_install.sh
 
 ```
 sudo ./scripts/caffe_requiremnts_install.sh
-cd libjson
+cd json
 sudo python setup.py install
 cd ..
 
