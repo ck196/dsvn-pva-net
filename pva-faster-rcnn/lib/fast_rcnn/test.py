@@ -375,4 +375,4 @@ def pva_detect(net, im_path, conf_thresh=0.5, classes=None):
     responses.image_height = height
     responses.image_width = width
 
-    return responses
+    return responses, im

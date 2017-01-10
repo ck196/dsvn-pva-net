@@ -3,8 +3,11 @@
 *.png
 *.so
 .idea/
-test/
 pva-faster-rcnn/build/
 pva-faster-rcnn/.build_release/
 pva-faster-rcnn/models/binary/
-
+libjson/build1/
+libjson/dist/
+libjson/framefilejson.egg-info/
+libjson/results/
+test.model
