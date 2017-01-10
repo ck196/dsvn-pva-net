@@ -1,0 +1,10 @@
+*.pyc
+*.jpg
+*.png
+*.so
+.idea/
+test/
+pva-faster-rcnn/build/
+pva-faster-rcnn/.build_release/
+pva-faster-rcnn/models/binary/
+
