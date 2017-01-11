@@ -34,6 +34,18 @@ cd pva-faster-rcnn/lib
 make
 cd ..
 cd caffe-faster-rcnn
+cp Makefile.config.example Makefile.config
+# Có thể tham khảo Makefile.config.bak
+
+```
+- Chỉnh sửa một số option và PYTHONPATH cho hợp lý và bỏ một số comment
+```
+USE_CUDNN := 1
+OPENCV_VERSION := 3
+WITH_PYTHON_LAYER := 1
+```
+
+```
 make -j8 && make pycaffe
 cd ..
 ```
